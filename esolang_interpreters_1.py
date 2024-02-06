@@ -8,7 +8,6 @@ def my_first_interpreter(code):
         if letter == "+":
             number += 1
         if letter == ".":
-            print(number)
             resposta = resposta + chr(number)
 
     return resposta
