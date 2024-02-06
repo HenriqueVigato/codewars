@@ -7,6 +7,3 @@ def partitions(n):
             f[i].append(f[i][j - 1] + t)
 
     return f[n][n]
-
-
-print(partitions(10))
